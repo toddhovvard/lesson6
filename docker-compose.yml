@@ -1,0 +1,7 @@
+version: '3.3'
+
+services: 
+    flask_app:
+        ports:
+        - 5017:5000
+        image: toddhovvard/flask_app_example
